@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta cha₹et="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GYM Supplements Store</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .video-background {
+            position: fixed; 
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1; 
+        }
+        header {
+            background: #232f3e;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav {
+            margin: 10px 0;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: 400px 200px;
+    gap: 10px;
+    padding: 10px;
+    position: relative;
+    top: 100px;    
+    
+}
+
+.grid-item {
+    background-color: #fffdfd; 
+    color: rgb(8, 8, 8); 
+    border: 1px solid #ddd; 
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+  
+   
+}
+        
+        footer {
+            background: #232f3e;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+ 
+<header>
+    <h1>GYM Supplements Store</h1>
+    <nav>
+        <a href="index.html" target="_self" >Home</a>
+        <a href="products.html" target="_blank">Products</a>
+        <a href="About us.html" target="_blank">About Us</a>
+    </nav>
+</header>
+<H2 style="text-align: center;">Featured Products</H2>
+<video class="video-background" autoplay muted loop src="6388405-uhd_2160_3840_25fps (1).mp4"></video>
+<div class="grid-container">
+    <div class="grid-item"> <img src="prd_3571059-MuscleBlaze-Creatine-Monohydrate-CreAMP-0.webp" title="MB Monohydrate Creatine" height="150" width="150" alt="MB Monohydrate Creatine"><h6>Muscle Blaze Monohydrate Creatine</h6><p>₹899/-</p><button>Purchase</button></div>
+    <div class="grid-item"> <img src="prd_3743481_c_m.jpg" height="150" width="150" title="MB Wrathx Pre-Workout & Shaker" alt="MB Wrathx Pre-Workout & Shaker(Free)"><h6>MB Wrathx Pre-Workout & Shaker(Free)</h6><p>₹1599/-</p><button>Purchase</button></div>
+    <div class="grid-item"><img src="pck_1811926_o.webp" height="150" width="150" alt="Supplement pack" title="MB Supplement Pack"><h6>MB Supplement Pack(Protien,Fish Oil, Shaker, Gym bag)</h6><p>₹3999/- </p><button>Purchase</button></div>
+</div>
+
+<footer>
+    <p>&copy; 2025 GYM Supplements Store. All rights reserved.</p>
+    <p>Contact us: <a href="mailto:info@gym-supplementsstore.com">info@gym-supplements.com</a></p>
+</footer>
+</body>
+</html>
